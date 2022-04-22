@@ -1,16 +1,57 @@
+body{
+   
+  overflow: auto;
+}
 
-.first-row{
-    background-color: rgb(71, 52, 52);
-    height: 60px;
-}
-.logo{
-    font-size: 40px
-}
-.pluse{
-    position: relative;
-    top: 16px;
+.container{
+    margin: 0;
+    padding: 0;
+width: 100% !important;
+max-width: none;
+
+
     
+}
+.header-container{
+    background: #333;
+    border-bottom: 1px solid #444;
+    
+    position: relative;
+    height: 60px;
+    padding-top: 10px;
+    /* z-index: 22; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    display: flex;
+    
+}
+
+.logo-name{
+    color: white;
+    font-size: 35px;
+    margin-top: -4px;
+    margin-left: 10px;
+    
+}
+.second-text{
     color: cadetblue;
+    /* background-color: brown;
+    width: 100%;
+    height: 70px; */
+    margin: 8px;
+    margin-left: 25px;
+
+}
+.header-right{
+    display: flex;
+background-color: rgb(36, 32, 32);
+opacity: .2;
+margin-top: -10px;
+word-spacing: 10px    
+    
     
  
 }
@@ -19,11 +60,14 @@
     
     margin-top: 12px;
 }
-    
+/* .bi bi-cart-plus-fill button:active{
+  background-color: burlywood;
+}
+     */
 
 
 
-.img-fluid{
+.row-img{
     background-image: url("./img-3.jpg");
     background-color: #cccccc;
     height: 700px;
@@ -32,6 +76,148 @@
     background-size: cover;
     position: relative;
   }
-  .secondNav{
-      background: transparent !important;
+
+  .navbar-brand{
+      font-size: 30px;
+      
   }
+  .secondNav{
+     background: transparent !important;
+     margin: auto;
+     position: relative;
+     align-items: center;
+     width: 70%;
+     top: 40px;
+  }
+  #navbarSupportedContent{
+      margin-left: 100px;
+      
+  }
+.d-flex{
+    margin-left: 10px;
+    
+}
+
+
+  #nav-login{
+ margin-right: 8px;
+
+  }
+  .btn-outline-success{
+      margin-left: 8px;
+  }
+
+  .div-overlay{
+color: white;
+text-align: center;
+margin-top: 80px;
+
+
+  }
+  .welcome-header{
+      height: 160px;
+  }
+  .welcome-form{
+    background-color: aliceblue;
+    width: 85%;
+    position: relative;
+    height: 80px;
+    align-items: center;
+    margin: auto;
+    border-radius: 6px;
+      
+  }
+  .form{
+    margin: auto;
+    height: 80px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+      text-align: center;
+      padding-top: 10px;
+      
+    border-radius: 6px solid rgb(205, 205, 243);
+    
+  }
+  input{
+    
+    
+      height: 56px;
+    justify-content: space-around;
+    position: relative;
+    top: 2px;
+    width: 24%;
+    border-style: hidden;
+    border-radius: 6px;
+    
+
+  }
+  input:focus{
+      outline: none;
+  }
+  /* input::placeholder{
+    overflow: hidden;
+    color: rgb(72, 19, 176);
+  } */
+  
+  .dropdownButton1{
+    height: 56px;
+    margin-top: 2px;
+    width: 25%;
+
+    border-style: none;
+  }
+
+
+  /* input.dropown-menu{
+    min-width: 15rem;
+    display: inline-block;
+  } */
+
+.tranding-btn{
+    float: left;
+    margin-top: 20px;
+    font-size: 18px;
+   
+}
+
+button{
+    border-radius: 6px;
+}
+
+
+
+.card-section{
+  width: 100%;
+  background-color: rgb(198, 240, 240);
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -6px;
+}
+
+.card-icons{
+  display: flex;
+}
+.card-icon1{
+  margin-right: 30px;
+}
+.card-text{
+  margin-bottom: 8px;
+}
+/* .card-dateList{
+  ;
+} */
+
+.card-end{
+  float: right;
+  margin-top: -10px;
+  }
+  .card-link{
+    text-decoration: none;
+  }
+
